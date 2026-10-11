@@ -3,7 +3,6 @@
 A visual tour of a tabletop role-playing platform in development: 32 original screenshots across 18 modules, with English, Ukrainian, Polish, Czech and Spanish interface views.
 
 - [Open the gallery](index.html)
-- [Explore the public development preview](https://tabletop-brama-main-preview.vercel.app)
 - [Browse the original screenshots](screenshots/)
 
 A development showcase captured from real BRAMA interfaces. People, communities, posts, activity counts and commercial figures in the populated demos are fictional or illustrative; photographic-style people are generated fictional adults. The product and its translations are still in development. The feed presents a proposed interface with local attachments. The reader shows public rules, which may retain their source language.
@@ -75,9 +74,6 @@ BRAMA is still in development. Here’s what I’m bringing together on the plat
 
 I’m building BRAMA for people who play, organise, write, translate, publish and run communities — with those activities connected within the same platform.
 
-Explore TableTop BRAMA:
-https://tabletop-brama-main-preview.vercel.app/
-
 Tell me which parts you would use, what is missing, and what needs more work.
 
 The screenshots show the platform with fictional demonstration content: people, posts, games, conversations, characters and releases. Some views demonstrate features still being developed; they do not represent an existing active user base.
@@ -107,9 +103,6 @@ BRAMA ще в розробці. Ось що я поєдную в цій плат
 • Мови. Український, англійський, польський, чеський та іспанський інтерфейси. Робота над локалізацією триває.
 
 Я створюю BRAMA для тих, хто грає, організовує, пише, перекладає, видає та розвиває спільноти — щоб ці заняття були пов’язані на одній платформі.
-
-Переглянути TableTop BRAMA:
-https://tabletop-brama-main-preview.vercel.app/
 
 Розкажіть, чим ви користувалися б, чого бракує та над чим варто попрацювати далі.
 
