@@ -11,6 +11,18 @@ The gallery includes social feeds, news, profiles and workspaces, messages, comm
 
 All images are unchanged originals. Open `index.html` in a browser to explore the gallery locally. No installation or external scripts are needed.
 
+## Join BRAMA
+
+Follow development, share feedback and meet the community.
+
+- [Discord — TableTop BRAMA](https://discord.gg/S6VWzYJteu)
+- [Telegram — English](https://t.me/TableTopBramaWorld)
+- [Telegram — Українська](https://t.me/TableTopBramaUA)
+- [Telegram — Polski](https://t.me/TableTopBramaPL)
+- [Telegram — Čeština](https://t.me/TableTopBramaCZ)
+- [Telegram — Español](https://t.me/TableTopBramaES)
+
+
 ## Screenshots
 
 | Module | Interface language | Original image |
