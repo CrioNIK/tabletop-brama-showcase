@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="TableTop BRAMA · Novinky z vývoje · 15. října 2026">
+<title>TableTop BRAMA — Novinky z vývoje · 15. října 2026</title><link rel="alternate" hreflang="en" href="index.html"><link rel="alternate" hreflang="uk" href="uk.html"><link rel="alternate" hreflang="pl" href="pl.html"><link rel="alternate" hreflang="cs" href="cs.html"><link rel="alternate" hreflang="es" href="es.html"><style>
+:root{color-scheme:light;--paper:#f3f5f4;--card:#fff;--ink:#1d292c;--muted:#526168;--line:#dce2e3;--accent:#126c68}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:32px}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--accent);text-underline-offset:.22em}a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid #a96e12;outline-offset:5px}
+.wrap{width:min(1320px,calc(100% - 48px));margin-inline:auto}
+.skip{position:fixed;left:16px;top:-80px;z-index:5;background:white;padding:12px}.skip:focus{top:8px}
+header{padding-block:44px 30px}.topline{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:.12em;font-size:.9rem}.back{font-size:.9rem}
+.language{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}.language a{display:inline-block;padding:8px 14px;border-radius:6px;text-decoration:none;border:1px solid var(--line);background:var(--card)}
+.language a[aria-current=page]{background:var(--ink);color:white;border-color:var(--ink);font-weight:650}
+.date{font-size:.9rem;color:var(--accent);font-weight:650;margin:38px 0 12px}
+h1{font-size:clamp(2.1rem,5vw,4.3rem);letter-spacing:-.04em;line-height:1.12;max-width:22ch;margin:0 0 26px}
+.notice{max-width:86ch;padding:16px 20px;border-left:3px solid #6c9993;background:#e8efec;color:var(--muted);font-size:.94rem}
+.copy{max-width:82ch;margin-block:26px 52px}.copy h2,.screens-title{font-size:1.5rem;letter-spacing:-.02em}
+.copy p{margin:0 0 1.2em}.copy ul{padding-left:1.4em}.copy li{margin-bottom:1em}
+.screen-nav{display:flex;gap:10px 22px;flex-wrap:wrap;margin:0 0 24px;padding:0;list-style:none;font-size:.92rem}
+figure{margin:0 0 36px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+figcaption{padding:24px 28px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px}
+.number{font-size:1rem;color:var(--muted);font-variant-numeric:tabular-nums}
+figcaption h3{font-size:1.2rem;line-height:1.35;margin:0}
+figcaption p{max-width:90ch;color:var(--muted);font-size:.95rem;margin:7px 0 0}
+.image{display:block;line-height:0;background:#10141c}.image img{display:block;width:100%;height:auto}
+.original{text-align:right;padding:11px 28px;font-size:.83rem;border-top:1px solid var(--line)}
+footer{margin-top:56px;padding-block:34px 50px;border-top:1px solid var(--line)}
+.community{max-width:82ch}.community h2{font-size:1.6rem;margin:0 0 8px}.community p{color:var(--muted);margin:0 0 20px}
+.hub{display:inline-block;background:var(--accent);color:white;padding:12px 20px;border-radius:6px;text-decoration:none;font-weight:650}
+.footer-nav{margin-top:32px;font-size:.85rem}
+@media(max-width:700px){.wrap{width:calc(100% - 28px)}header{padding-top:28px}.language{gap:7px}.language a{padding:7px 10px}.date{margin-top:28px}figcaption{padding:18px 16px;gap:10px}.original{padding:10px 16px}.notice{padding:14px 16px}.copy{margin-bottom:36px}.topline{gap:10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body id="top"><a class="skip" href="#update">Přejít k novinkám</a>
+<header class="wrap"><div class="topline"><span class="brand">TABLETOP BRAMA</span><a class="back" href="../index.html">← První přehled platformy</a></div>
+<nav class="language" aria-label="Jazyk stránky a snímků obrazovky"><a href="index.html" lang="en" hreflang="en">English</a> <a href="uk.html" lang="uk" hreflang="uk">Українська</a> <a href="pl.html" lang="pl" hreflang="pl">Polski</a> <a href="cs.html" lang="cs" hreflang="cs" aria-current="page">Čeština</a> <a href="es.html" lang="es" hreflang="es">Español</a></nav>
+<p class="date"><time datetime="2026-10-15">15. října 2026</time></p><h1>Novinky z vývoje</h1>
+<p class="notice">BRAMA je ve vývoji a web je soukromý. Zde jsou snímky vývojového rozhraní. Ukázkový obsah ilustruje fungování platformy, nikoli aktivitu existujících uživatelů.</p></header>
+<main class="wrap" id="update"><section class="copy" aria-labelledby="changes"><h2 id="changes">Co se změnilo</h2><p>Upravil jsem vzhled a profily v TableTop BRAMA. Teď dopracovávám nabídky her, herní prostor a boty Telegram/Discord pro tyto nabídky.</p>
+<p>Nově jsou k dispozici profilové karty: kliknutím na jméno nebo avatar v komentářích zobrazíte profil, role, popis a odkazy daného člověka bez opuštění stránky. Nahrávání avatarů a obálek je také optimalizované se zachováním animací.</p>
+<p>Co právě dopracovávám:</p>
+<ul><li>Nabídky her: úpravy bez ztráty přihlášek, přehlednější výběr systému a edice a termíny — přesné datum, rozmezí nebo datum po dohodě. Společný katalog pro nabídky má oddělené položky D&amp;D 2024 a 2014.</li></ul>
+<ul><li>Herní prostor: vytvoření postavy nebo připojení existující z knihovny, deník vedle chatu a hody z deníku ve společném chatu. Dopracovávám návaznost těchto kroků.</li></ul>
+<ul><li>Boti pro nabídky her: propojení postupů v Telegramu a Discordu s BRAMA, včetně soukromého formuláře v Discordu, uložené volby jazyka rozhraní a příslušných jazykových kanálů. Práce na rozhraní botů zahrnuje ukrajinštinu, angličtinu, polštinu, češtinu a španělštinu.</li></ul>
+<p>BRAMA je stále ve vývoji a web ještě není veřejný. Snímky používají smyšlené ukázkové profily a obsah.</p></section><section aria-labelledby="screens"><h2 id="screens" class="screens-title">Snímky obrazovky</h2><ul class="screen-nav"><li><a href="#01-design">Vylepšený vzhled BRAMA</a></li><li><a href="#02-profile">Ukázkový profil</a></li><li><a href="#03-profile-card">Profilová karta v diskusi</a></li><li><a href="#04-game-announcements">Herní oznámení</a></li><li><a href="#05-announcement-form">Editor oznámení</a></li><li><a href="#06-game-create-sheet">Tvorba postavy přímo ve hře</a></li><li><a href="#07-game-edit-sheet">Deník postavy vedle skupinového chatu</a></li><li><a href="#08-telegram-bot">Vytváření oznámení v Telegramu</a></li><li><a href="#09-discord-bot">Nástroje oznámení v Discordu</a></li></ul><figure id="01-design">
+<figcaption><span class="number">01</span><div><h3>Vylepšený vzhled BRAMA</h3><p>Vylepšený vzhled BRAMA: příspěvky, navigace a média na jednom místě.</p></div></figcaption>
+<a class="image" href="images/cs/01-design.png" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Vylepšený vzhled BRAMA"><img src="images/cs/01-design.png" alt="Úvodní stránka BRAMA s upravenou navigací, smyšleným příspěvkem, ilustrovanou novinkou a postranním kalendářem." width="1600" height="1100" loading="eager" decoding="async"></a>
+<div class="original"><a href="images/cs/01-design.png" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="02-profile">
+<figcaption><span class="number">02</span><div><h3>Ukázkový profil</h3><p>Vylepšený profil s úvodním obrázkem, avatarem, rolemi a vlastní nástěnkou.</p></div></figcaption>
+<a class="image" href="images/cs/02-profile.png" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Ukázkový profil"><img src="images/cs/02-profile.png" alt="Smyšlený profil Marty Koval s fantasy úvodním obrázkem, ilustrovaným avatarem, rolemi, popisem a vlastní nástěnkou." width="1600" height="1071" loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/02-profile.png" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="03-profile-card">
+<figcaption><span class="number">03</span><div><h3>Profilová karta v diskusi</h3><p>Kliknutím na jméno nebo avatar zobrazíte kartu profilu, aniž byste opustili diskusi.</p></div></figcaption>
+<a class="image" href="images/cs/03-profile-card.png" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Profilová karta v diskusi"><img src="images/cs/03-profile-card.png" alt="Karta smyšleného profilu Marty Koval otevřená nad diskusí: role, popis, herní systémy, jazyky a tlačítka profilu a zprávy." width="1244" height="824" loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/03-profile-card.png" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="04-game-announcements">
+<figcaption><span class="number">04</span><div><h3>Herní oznámení</h3><p>Ilustrované oznámení se systémem, edicí, časem, volnými místy a tlačítkem přihlášení. Smyšlená ukázková hra.</p></div></figcaption>
+<a class="image" href="images/cs/04-game-announcements.jpg" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Herní oznámení"><img src="images/cs/04-game-announcements.jpg" alt="Oznámení BRAMA o smyšleném dobrodružství „Lucerny pod městem“: D&amp;D 5.5e (2024), čtyři volná místa a pořadatelka Marta Koval." loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/04-game-announcements.jpg" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="05-announcement-form">
+<figcaption><span class="number">05</span><div><h3>Editor oznámení</h3><p>Úprava ukázkového oznámení s viditelným systémem, edicí, počtem hráčů a náhledem. Tento postup se stále dolaďuje.</p></div></figcaption>
+<a class="image" href="images/cs/05-announcement-form.jpg" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Editor oznámení"><img src="images/cs/05-announcement-form.jpg" alt="Editor oznámení BRAMA s názvem, popisem, systémem, edicí a ilustrací smyšleného dobrodružství, čtyřmi místy a náhledem." loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/05-announcement-form.jpg" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="06-game-create-sheet">
+<figcaption><span class="number">06</span><div><h3>Tvorba postavy přímo ve hře</h3><p>Tvorba postavy D&amp;D s listem viditelným vedle nastavení a herního chatu. Ukázka vyvíjené platformy.</p></div></figcaption>
+<a class="image" href="images/cs/06-game-create-sheet.png" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Tvorba postavy přímo ve hře"><img src="images/cs/06-game-create-sheet.png" alt="Tvorba postavy D&amp;D s listem viditelným vedle nastavení a herního chatu. Ukázka vyvíjené platformy." width="1900" height="1100" loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/06-game-create-sheet.png" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="07-game-edit-sheet">
+<figcaption><span class="number">07</span><div><h3>Deník postavy vedle skupinového chatu</h3><p>Úprava postavy D&amp;D přímo ve hře. List a rozhovor skupiny zůstávají vedle sebe. Fiktivní ukázková data.</p></div></figcaption>
+<a class="image" href="images/cs/07-game-edit-sheet.png" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Deník postavy vedle skupinového chatu"><img src="images/cs/07-game-edit-sheet.png" alt="Úprava postavy D&amp;D přímo ve hře. List a rozhovor skupiny zůstávají vedle sebe. Fiktivní ukázková data." width="1900" height="1100" loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/07-game-edit-sheet.png" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="08-telegram-bot">
+<figcaption><span class="number">08</span><div><h3>Vytváření oznámení v Telegramu</h3><p>Výběr systému v botu pro Telegram: samostatné položky D&amp;D 2024 a 2014, vyhledávání a možnost vlastního systému.</p></div></figcaption>
+<a class="image" href="images/cs/08-telegram-bot.jpg" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Vytváření oznámení v Telegramu"><img src="images/cs/08-telegram-bot.jpg" alt="České rozhraní bota pro Telegram v kroku 3 z 12: tlačítka herních systémů, další stránka, vyhledávání, vlastní systém a zrušení." loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/08-telegram-bot.jpg" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure><figure id="09-discord-bot">
+<figcaption><span class="number">09</span><div><h3>Nástroje oznámení v Discordu</h3><p>Nabídka bota pro Discord pro vytváření her, pokračování v konceptech a propojení s BRAMA. Odpovědi ve formuláři a odpovědi bota vidí jen osoba, která tento postup používá.</p></div></figcaption>
+<a class="image" href="images/cs/09-discord-bot.jpg" target="_blank" rel="noopener" aria-label="Otevřít původní obrázek: Nástroje oznámení v Discordu"><img src="images/cs/09-discord-bot.jpg" alt="Česká nabídka bota BRAMA v Discordu s tlačítky pro vytvoření hry, vlastní oznámení a propojení s BRAMA a vysvětlením soukromých konceptů." loading="lazy" decoding="async"></a>
+<div class="original"><a href="images/cs/09-discord-bot.jpg" target="_blank" rel="noopener">Otevřít původní obrázek ↗</a></div>
+</figure></section></main>
+<footer class="wrap"><section class="community" aria-labelledby="join"><h2 id="join">Přidejte se k BRAMA</h2><p>Discord, Telegram a další komunitní odkazy najdete na jednom místě.</p><a class="hub" href="https://t.me/TableTopBramaHub">Otevřít BRAMA Hub ↗</a></section><p class="footer-nav"><a href="#top">Zpět nahoru ↑</a></p></footer></body></html>
